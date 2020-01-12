@@ -1,0 +1,59 @@
+body{
+    
+    background-image: url("https://image.freepik.com/free-vector/background-template-with-wild-animals_1308-6140.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+   
+}
+
+h1{
+    color:black;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+top:60px;
+left:5px;
+
+}
+
+.words{
+    color:blue;
+    font-size: 25px;
+}
+
+
+.the-box{
+    width: 300px;
+    border: 15px solid green;
+    padding: 100px;
+    margin: 20px;
+    position: relative;
+    top: 80px;
+    left:340px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+button{
+    color: lightpink;
+    background-color:darkgoldenrod;
+    font-size: 20px;
+    padding: 5px;
+    position: relative;
+    top:80px;
+    left:570px;
+    display: inline-block;
+    border-radius: 12px;
+
+}
+#picposition{
+    position: fixed;
+    top:350px;
+    left:750px;
+}
+#promptMe{
+    color:red;
+    
+}
