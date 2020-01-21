@@ -1,3 +1,10 @@
+function fillInBlanks(){
+    
+    const adj1Input = document.getElementById('adj1Input');
+    const adj1Output = adj1Input.value;
+    adj1.textContent = adj1Output;
+    document.getElementById("storyresults").style.visibility = "visible";
+}
 function promptMe(){
     var adj = prompt("Please provide an Adjective");
     adjinput.textContent=adj;
